@@ -139,7 +139,6 @@ function actualizarCarritoHTML() {
 
 
 function actualizarStorage() {
-	// TODO
 	localStorage.setItem('carrito', JSON.stringify(carrito));
 }
 
