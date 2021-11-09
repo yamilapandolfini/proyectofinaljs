@@ -1,0 +1,74 @@
+[
+	{
+		"imagen": "images/camisa celeste.jpg",
+		"nombre": "Camisa Celeste",
+		"precio": "$1250",
+		"id": 1
+	},
+	{
+		"imagen": "images/camisa rosa viejo.jpg",
+		"nombre": "Camisa Rosa Viejo",
+		"precio": "$1250",
+		"id": 2
+	},
+	{
+		"imagen": "images/camisa rosa.jpg",
+		"nombre": "Camisa Rosa",
+		"precio": "$1100",
+		"id": 3
+	},
+	{
+		"imagen": "images/pantalon beige.jpg",
+		"nombre": "Pantalon Beige",
+		"precio": "$2000",
+		"id": 4
+	},
+	{
+		"imagen": "images/pantalon rosa.jpg",
+		"nombre": "Pantalon Rosa",
+		"precio": "$2000",
+		"id": 5
+	},
+	{
+		"imagen": "images/blusa verde.jpg",
+		"nombre": "Blusa Verde",
+		"precio": "$1600",
+		"id": 6
+	},
+    {
+		"imagen": "images/remera blanca.jpg",
+		"nombre": "Remera blanca",
+		"precio": "$500",
+		"id": 7
+	},
+    {
+		"imagen": "images/remera negra.jpg",
+		"nombre": "Remera Negra",
+		"precio": "$350",
+		"id": 8
+	},
+    {
+		"imagen": "images/jean roto.jpg",
+		"nombre": "Pantalon Rock",
+		"precio": "$2300",
+		"id": 9
+	},
+	{
+		"imagen": "images/blusa rayas.jpg",
+		"nombre": "Blusa Rayas",
+		"precio": "$1600",
+		"id": 10
+	},
+	{
+		"imagen": "images/remera triangulo.jpg",
+		"nombre": "Remera Triangulo",
+		"precio": "$600",
+		"id": 11
+	},
+	{
+		"imagen": "images/blusa espalda.jpg",
+		"nombre": "Blusa Espalda",
+		"precio": "$1800",
+		"id": 12
+	}
+]
