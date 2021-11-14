@@ -1,0 +1,25 @@
+.carritopreview{
+    margin: 10rem;
+    text-align: center;
+    justify-content: center;
+    color: #222;
+    
+}
+
+.lista-carritopreview {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2%;
+    justify-content: center;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+
+
+img{
+    width: 100px;
+}
