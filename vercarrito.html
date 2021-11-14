@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title Tag  -->
-    <title>Eshop - tiendaOnline</title>
+    <title>Eshop - Carrito</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<!-- Web Font -->
@@ -43,6 +43,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="vercarrito.css">
 
 	
 	
@@ -80,7 +81,7 @@
 							<div class="right-content">
 								<ul class="list-main">
 									<li><i class="ti-user"></i> <a href="#">Mi cuenta</a></li>
-									<li><i class="ti-power-off"></i><a href="login.html">Login</a></li>
+									<li><i class="ti-power-off"></i><a href="#">Login</a></li>
 								</ul>
 							</div>
 							<!-- End Top Right -->
@@ -116,30 +117,6 @@
 								</div>
 								<div class="sinlge-bar shopping">
 									<a href="#" class="single-icon"><i class="ti-bag"></i> <span class="total-count"></span></a>
-									<!-- Shopping Item -->
-									<div class="shopping-item">
-										<div class="dropdown-cart-header">
-											<span> Compra en Curso</span>
-											<a href="vercarrito.html">Ver Carrito</a>
-										</div>
-										<div id="carrito">
-											<table id="lista-carrito" class="u-full-width">
-												<thead>
-													<tr>
-														<th>Imagen</th>
-														<th>Nombre</th>
-														<th>Precio</th>
-														<th>Cantidad</th>
-														<th></th>
-													</tr>
-												</thead>
-												<tbody>
-												</tbody>
-											</table>
-											<button id="vaciar-carrito" type="button" data-dismiss="modal"  class="btn btn-link">Vaciar carrito</button>
-										</div>
-									</div>
-									<!--/ End Shopping Item -->
 								</div>
 							</div>
 						</div>
@@ -182,79 +159,27 @@
 		</header>
 		<!--/ End Header -->
 		
-		<!-- Breadcrumbs -->
-		<div class="breadcrumbs">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="bread-inner">
-							<ul class="bread-list">
-								<li><a href="shop-grid.html">Home<i class="ti-arrow-right"></i></a></li>
-								<li class="active"><a href="blog-single.html">Cart</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Breadcrumbs -->
-		
-		<!-- Product Style -->
-		<div id="hero">
-			<div class="container">
-				<div class="row">
-					<div class="six columns">
-						<div class="contenido-hero">
-							<h3>Buscar prenda</h3>
-							<form id="formulario">
-								<input type="text" class="u-full-width" id="buscador"
-									placeholder="Ingresa lo que quieres buscar">
-								<input class="submit-buscador" type="submit" value="Buscar">
-							</form>
-							<button id="fade-in">Ver Oferta</button>
-							<button id="fade-out">Ocultar Oferta</button>
+		<div id="carrito">
+            <div id="carritopreview">
+                <table id="lista-carrito" class="u-fully-width">
+                    <div id="carritopreview">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+				<a href="shop-grid.html">Seguir Comprando</a>
+            </div>
+            
+        </div>
 	
-							<div id="block">
-								<h6>50% off en todas las prendas!! Ingresando el codigo OFF10</h6>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
 	
-		
-		
-		<div id="lista-productos" class="container">
-			
-		</div>
-	
-		<!--/ End Product Style 1  -->	
-
-		<!-- Start Shop Newsletter  -->
-		<section class="shop-newsletter section">
-			<div class="container">
-				<div class="inner-top">
-					<div class="row">
-						<div class="col-lg-8 offset-lg-2 col-12">
-							<!-- Start Newsletter Inner -->
-							<div class="inner">
-								<h4>Newsletter</h4>
-								<p> Subscribite a nuestro Newsletter y obtene un descuento del <span>10%</span> en tu primera compra</p>
-								<form id="singular-form" class="newsletter-inner">
-									<input name="EMAIL" placeholder="Dejanos tu email" required="" type="email">
-									<button class="btn">Subscribite!</button>
-								</form>
-							</div>
-							<!-- End Newsletter Inner -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Shop Newsletter -->
-		
 	<!-- Start Footer Area -->
 	<footer class="footer">
 		<!-- Footer Top -->
